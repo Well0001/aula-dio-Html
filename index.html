@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    <title>Aula Dio HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Introdução Sobre HTML.</h1>
+    <hr>
+    <h2>Indice</h2>
+    <ul>
+        <li><a href="#tags">O que são tags?</a></li>
+        <li><a href="#tag-texto">Tags de Texto</a></li>
+        <li><a href="#imagens">Tags de imagens</a></li>
+        <li><a href="#ancoras">Tag de Ancora</a></li>
+    </ul>
+    <hr>
+
+    <h2 id="tags">O Que São Tags?</h2>
+    <p>Primeiro o que são – Para que você possa apreender o que são as tags, vamos começar explicando o sentido da palavra. Tag em inglês (a maioria das palavras na linguagem da internet são originadas do inglês) significa etiqueta, rótulo. E etiqueta é algo que usamos em objetos, mercadorias, arquivos, etc. para nos auxiliar na identificação dos objetos.
+        As tags são etiquetas que não aparecem na tela do computador, mas que servem para orientar alguém. Quem? Os robot que são os programas dos mecanismos de busca e que vasculham as páginas da web e recolhe as informações contidas nessas etiquetas. Por exemplo, uma das informações que ele recolhe é o título da página, a qual precisa estar devidamente etiquetada, para que o robot "saiba" o que ela contém.</p>
+        
+        <p>Exemplo: Digamos que você procura em porto alegre nos mecanismos de busca "comunicação gráfica e digital" digite esta palavra.</p>
+        
+        <p>O que acontece: O robot é um programa e, nestas circunstâncias, é instruído a recolher as informações que estão contidas dentro das etiquetas. Para ser mais específico, no exemplo do título, ao entrar na página, ele se depara com várias instruções, e uma delas é a seguinte: title. Isto significa que o nome da etiqueta (tag) é title (=título). Vamos supor que o título da página seja "Comunicação gráfica e Digital".
+        A tag título ficará assim: Comunicação gráfica e digital</p>
+        
+        <p>O robot vai enviar para o banco de dados do mecanismo de busca que a etiqueta título tem o seguinte conteúdo: "comunicação gráfica e digital". No banco de dados esta informação será usada, juntamente com outras, para classificar a página e colocar a página em uma ou várias listas.</p>
+        
+        <p>A parte descrita acima você não viu, mas na tela de seu computador vai aparecer uma lista com os resultados que o robot já tinha classificado como tendo mais probabilidade de satisfazer sua busca.</p>
+        
+        <p>Prestando a atenção você vai perceber como não é fácil aparecer em uma busca. Os resultados apresentados sempre aparece desta forma RESULTADO 1-10 DE APROXIMADAMENTE (TANTAS MIL) PARA "COMUNICAÇÃO GRÁFICA E DIGITAL"
+        Aquelas tantas mil que aparece é o numero de páginas existente para aquela palavra que você digitou. Só para você ter uma idéia de como uma grande parte dos websites não aparecem nos mecanismos de busca.</p>
+        
+        <p>Se você entrar no Google e digitar a palavra chave "alimentos e bebidas porto alegre" procurando um restaurante ou pizzaria em porto alegre existem aproximadamente 518.000 mil páginas com esta palavra, mas o primeiro website que é listado, é um site de busca de produtos e serviços de porto alegre "www.jconexao.com.br" o segundo é um website do governo, após o yahoo respostas, e em seguida, o website da veja.</p>
+        
+        <p>Neste contexto eu pergunto o que você conclui é o Google que não sabe listar as páginas ou são os donos de pizzarias e restaurantes que não otimizaram suas páginas?</p>
+        
+        <p>Quantas vezes você procurou alguma coisa nos diversos mecanismos de buscas e ficou aborrecido porque ele apresentou uma lista enorme, entretanto não tinha exatamente aquilo que você buscava? Não é verdade?</p>
+        
+        <p>Mas não basta ter tags nos códigos fonte, além disso, é preciso o trabalho detalhado de cadastramento em mecanismo de busca.</p>
+        
+        <p>Conclusão se sua homepage está sem etiqueta ou tags ela não vai ser identificada pelos robot que analisam a web e conseqüentemente sua página não vai figurar na palavra chave que um dos milhões de internautas procuram.</p>
+        
+        <p>Francisco Amado</p>
+        
+        <p>Publicado por: Francisco Amado</p>
+        <hr>
+        
+        <h2 id="tag-texto">Tags de Texto</h2>
+        <ul>
+        <li>
+            <h4> p- Tag de parágrafo</h4>
+            <p>Essa tag formata qualquer texto entre a tag de abertura e a tag de fechamento como um parágrafo padrão ou corpo de texto principal.</p>
+        </li>
+        <li>
+            <h4>h1 até h5 - Tag de título</h4> 
+            <p>Essa tag gera um texto em negrito e com a fonte maior, começando pelo "h1" qué tem a maior fonte, indo até o "h5"</p>
+        </li>
+        <li>
+            <h4>b - Tag de negrito</h4>
+            <p>Esta tag irá formatar qualquer texto entre as tags como negrito ('b' vem da palavra 'bold').</p>
+        </li>
+        <li>
+            <h4>i - Tag de itálico</h4>
+            <p>Esta tag irá formatar qualquer texto entre a tag de abertura e a tag de fechamento como itálico.</p>
+        </li>
+        <li>
+            <h4>u- Tag de sublinhado</h4>
+            <p>Esta tag formata todo texto como sublinhado (‘u’ vem de ‘underline’).</p>
+        </li>
+        </ul>
+        <hr>
+
+        <h2 id="imagens">Tags de Imagens</h2>
+        <p>Utilizando a tag "img", podemos adicionar imagens ao nosso documento html</p>
+        <p>essa tag possui parametros como o "src" que vem da palavra Source(em portugues Fonte) que é o caminho da imagem, que pode estar em um link na internet ou algum caminho dentro do seu computador.</p>
+        <p>outro parametro seria o "alt" (alternate text) que serve para exibir um texto caso a imagen não possa ser carregada pelo navegador.</p>
+        <img width="180" src="https://i.zst.com.br/thumbs/12/1c/30/1972451686.jpg" alt="Joinha">
+        <hr> 
+
+        <h2 id="ancoras">Tag de Ancora</h2>
+        <p>A tag "a", conhecida como tag de âncora, é responsável por vincular os demais documentos que o nosso HTML possui, links internos e externos.</p>
+
+            <p>Para conseguirmos declarar essa tag, devemos incluir o atributo href e uma frase ou palavra dentro da tag a. </p>
+            <h5>Atributos tag âncora</h5>
+            <p>"href" Em primeiro lugar, temos o href (hypertext reference), em português, referência para hipertexto, que nada mais é do que a tag onde colocamos a URL do site que queremos vincular ao nosso HTML. É necessário adicionarmos a URL por completo, isso inclui o protocolo https. Ao incluirmos a URL do site desejado, basta colocarmos uma palavra ou frase entre o fechamento e abertura da tag a. Quando clicarmos nessa palavra/frase, seremos direcionados ao site vinculado. É possível também utilizarmos a tag a apenas para voltar ao topo da nossa página, para isso, inserimos uma cerquilha. Ficando dessa forma:</p>
+            <a href="#inicio">(Voltar ao inicio)</a>
+    
+</body>
+</html>
